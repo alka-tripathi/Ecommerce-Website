@@ -332,7 +332,7 @@ button.normal{
     font-weight: 400;
     padding-bottom: 15px;
 }
- button.white{
+button .white{
     padding:10px 15px;
     border-radius: 4px;
     outline:none;
@@ -343,9 +343,25 @@ button.normal{
     background:transparent;
     cursor: pointer;
 }
-#sm-banner button:hover{
+#sm-banner button{
+    padding:10px 15px;
+    border-radius: 4px;
+    outline:none;
+    border:1px solid #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s;
+    background:transparent;
+    cursor: pointer;
+}
+#sm-banner .banner-box:hover button{
     background-color: #088170;
     color:white;
-    border:none;
+    border:1px solid #088170;
    
+}
+#sm-banner .banner-box2{
+
+    background-image: url("Photos/Banner/b10.jpg");
+
 }
