@@ -694,6 +694,18 @@ footer a:hover{
     flex-direction: column;
     padding: 14px;
 }
+#prodetails{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#prodetails .single-pro-image{
+    width: 50%;
+    padding-top:30px;
+
+}
 #page-header h2,#page-header p{
     color:#fff;
 }
@@ -715,3 +727,20 @@ footer a:hover{
     font-weight: 600;
     border-radius: 4px;
 }
+
+/* single product */
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 15px;
+
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
