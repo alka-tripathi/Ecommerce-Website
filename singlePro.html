@@ -36,19 +36,19 @@
 
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
-            <img src="Photos/Product/f1.jpg" width="100%" id="mainimg">
+            <img src="Photos/Product/f1.jpg" width="100%" id="main-img">
             <div class="small-img-group">
                 <div class="small-img-col">
-                    <img src="Photos/Product/f2.jpg" alt=""  width="100%" class="100%">
+                    <img src="Photos/Product/f2.jpg" alt=""  width="100%"  class="small-img">
                 </div>
                 <div class="small-img-col">
-                    <img src="Photos/Product/f3.jpg" alt=""  width="100%" class="100%">
+                    <img src="Photos/Product/f3.jpg" alt=""  width="100%"  class="small-img">
                 </div>
                 <div class="small-img-col">
-                    <img src="Photos/Product/f4.jpg" alt=""  width="100%" class="100%">
+                    <img src="Photos/Product/f4.jpg" alt=""  width="100%"  class="small-img">
                 </div>
                 <div class="small-img-col">
-                    <img src="Photos/Product/f5.jpg" alt=""  width="100%" class="100%">
+                    <img src="Photos/Product/f5.jpg" alt=""  width="100%"  class="small-img">
                 </div>
             </div>
         </div>
@@ -69,6 +69,89 @@
             <h4>Product Details</h4>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quam perspiciatis doloribus magnam minus iste et qui itaque alias, iure nostrum quas provident. Quas mollitia soluta unde, autem ab ut.
             Officiis inventore nisi sequi doloribus aliquam pariatur voluptate mollitia necessitatibus? Neque doloremque at incidunt nam quisquam magni delectus eligendi corporis harum, dolorem perspiciatis culpa corrupti natus obcaecati, blanditiis est facere.</span>
+        </div>
+
+    </section>
+    <section id="product1" class="section-p1">
+
+
+
+        <h2>Featured Product</h2>
+        <p>Summer Collection New Mordern Design</p>
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Photos/Product/n1.jpg" alt="">
+                <div class="des">
+                    <span>Adida</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+
+
+
+            <div class="pro">
+                <img src="Photos/Product/n2.jpg" alt="">
+                <div class="des">
+                    <span>Adida</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="Photos/Product/n3.jpg" alt="">
+                <div class="des">
+                    <span>Adida</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+
+
+            <div class="pro">
+                <img src="Photos/Product/n4.jpg" alt="">
+                <div class="des">
+                    <span>Adida</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+
+
         </div>
 
     </section>
@@ -144,6 +227,33 @@
 </footer>
 
 
-    <script src="app.js"></script>
+    <script >
+        var mainImg = document.getElementById("main-img");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick=function (){
+            mainImg.src=smallImg[0].src;
+        }
+        smallImg[1].onclick=function (){
+            mainImg.src=smallImg[1].src;
+        }
+        smallImg[2].onclick=function (){
+            mainImg.src=smallImg[2].src;
+        }
+        smallImg[3].onclick=function (){
+            mainImg.src=smallImg[3].src;
+        }
+
+
+        // for (let i = 0; i < smallImg.length; i++) {
+        //     smallImg[i].onclick = function () {
+        //         mainImg.src = this.src;
+        //     }
+        // }
+
+
+
+
+    </script>
 </body>
 </html>
