@@ -801,7 +801,7 @@ margin-bottom:10px;
     padding-bottom: 90px;
  }
  #blog .blog-image{
-    width: 50%;
+    width: 100%;
     margin-left: 40px;
     /* background-color: gold; */
     display: flex;
@@ -847,3 +847,44 @@ background-color: #088178;
  }
 
 
+/* 
+ About us */
+
+ #page-header .about-header{
+    background-image: url("Photos/About/banner.png");
+
+
+ }
+ #about-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ #about-head div{
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 30px;
+
+    height: 60vh;
+    width:50%;
+   
+ }
+ #about-head p{
+    text-align: left;
+    padding-left: 40px;
+ }
+ #about-head img{
+    width: 50%;
+height: auto;
+ }
+
+ #about-app{
+    text-align: center;
+ }
+ #about-app video{
+    width: 70%;
+    height: 100%;
+    margin-top:30px;
+ }
