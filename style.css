@@ -989,3 +989,33 @@ height: auto;
     background-color: #088178;
     color:#fff;
  }
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .people div img{
+    width: 65px;
+    height: 65%;
+    object-fit:cover ;
+    margin-left: 15px;
+}
+#form-details .people div p{
+    margin:0;
+    font-size: 14px;
+    line-height: 25px;
+}
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color:#000;
+
+}
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin:30px;
+    padding:80px;
+    border:1px solid #e1e1e1;
+}
